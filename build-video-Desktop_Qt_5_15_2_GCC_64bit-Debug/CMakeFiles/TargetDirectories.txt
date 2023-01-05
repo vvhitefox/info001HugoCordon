@@ -1,0 +1,7 @@
+/home/huj/Desktop/info001-TP1/build-video-Desktop_Qt_5_15_2_GCC_64bit-Debug/CMakeFiles/video.dir
+/home/huj/Desktop/info001-TP1/build-video-Desktop_Qt_5_15_2_GCC_64bit-Debug/CMakeFiles/edit_cache.dir
+/home/huj/Desktop/info001-TP1/build-video-Desktop_Qt_5_15_2_GCC_64bit-Debug/CMakeFiles/rebuild_cache.dir
+/home/huj/Desktop/info001-TP1/build-video-Desktop_Qt_5_15_2_GCC_64bit-Debug/CMakeFiles/list_install_components.dir
+/home/huj/Desktop/info001-TP1/build-video-Desktop_Qt_5_15_2_GCC_64bit-Debug/CMakeFiles/install.dir
+/home/huj/Desktop/info001-TP1/build-video-Desktop_Qt_5_15_2_GCC_64bit-Debug/CMakeFiles/install/local.dir
+/home/huj/Desktop/info001-TP1/build-video-Desktop_Qt_5_15_2_GCC_64bit-Debug/CMakeFiles/install/strip.dir
