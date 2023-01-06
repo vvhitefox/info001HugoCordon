@@ -1,3 +1,9 @@
 # ninja log v5
-0	753	1671009035431062838	CMakeFiles/minimum-prog.dir/minimum-prog.cpp.o	116ee9b9772259b0
 754	886	1671009035567065938	minimum-prog	97b2cd0916ae9999
+0	753	1671009035431062838	CMakeFiles/minimum-prog.dir/minimum-prog.cpp.o	116ee9b9772259b0
+0	869	1672955043681072491	CMakeFiles/minimum-prog.dir/minimum-prog.cpp.o	73be5ed39f08cf01
+869	1023	1672955043837072947	minimum-prog	97b2cd0916ae9999
+0	803	1672955664751017543	CMakeFiles/minimum-prog.dir/minimum-prog.cpp.o	73be5ed39f08cf01
+803	943	1672955664887017989	minimum-prog	97b2cd0916ae9999
+1	873	1672955690227101101	CMakeFiles/minimum-prog.dir/minimum-prog.cpp.o	73be5ed39f08cf01
+873	1031	1672955690387101626	minimum-prog	97b2cd0916ae9999

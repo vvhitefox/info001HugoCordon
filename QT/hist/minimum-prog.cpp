@@ -235,6 +235,18 @@ int main(int argc,char** args)
   imshow("trammage2",tram2);
   imshow( "Youpi", fColor );
   imshow( "imgCorr", imgCorrCol );
+
+  Mat tramBW = Mat(fColor.rows,fColor.cols,CV_8U);
+  cvtColor(fColor,tramBW,COLOR_RGB2GRAY);
+  tramage_floyd_steinberg(tramBW,tramBW);
+  imwrite( "trammageCOL.png",tram);
+  imwrite( "trammageCMYK.png",tram2);
+  imwrite( "trammageBW.png",tramBW);
+  imwrite( "img.png", fColor );
+  imwrite( "imgCorr.png", imgCorrCol );
+  imwrite( "histogrammeCorr.png",h2);
+  imwrite( "histogramme.png",h);
+
   while ( waitKey(50) < 0 ){
       //value = getTrackbarPos( "track", "Youpi" );
       if ( value != old_value )

@@ -1,4 +1,4 @@
-# Install script for directory: /home/huj/Desktop/info001-TP1/QT/regions
+# Install script for directory: /home/huj/Desktop/info/d/QT/filtres
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/huj/Desktop/info001-TP1/QT/regions/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/huj/Desktop/info/d/QT/filtres/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

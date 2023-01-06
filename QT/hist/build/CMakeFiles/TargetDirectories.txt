@@ -1,3 +1,3 @@
-/home/huj/Desktop/info001-TP1/QT/hist/build/CMakeFiles/minimum-prog.dir
-/home/huj/Desktop/info001-TP1/QT/hist/build/CMakeFiles/edit_cache.dir
-/home/huj/Desktop/info001-TP1/QT/hist/build/CMakeFiles/rebuild_cache.dir
+/home/huj/Desktop/info/d/QT/hist/build/CMakeFiles/minimum-prog.dir
+/home/huj/Desktop/info/d/QT/hist/build/CMakeFiles/edit_cache.dir
+/home/huj/Desktop/info/d/QT/hist/build/CMakeFiles/rebuild_cache.dir

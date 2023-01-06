@@ -1,11 +1,15 @@
 cmake_minimum_required(VERSION 3.5)
+project( video )
+set (CMAKE_CXX_STANDARD 11)
+find_package( OpenCV REQUIRED )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
 
-project(video LANGUAGES CXX)
+SET( MAIN_EXEC
+     minimum-prog
+     # vous pouvez ajouter d'autres programmes ici
+     )
 
-set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
-
-add_executable(video main.cpp)
-
-install(TARGETS video
-    LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR})
+FOREACH(FILE ${MAIN_EXEC})
+            add_executable( ${FILE} ${FILE}.cpp )
+            target_link_libraries( ${FILE} ${OpenCV_LIBS} )
+ENDFOREACH(FILE)

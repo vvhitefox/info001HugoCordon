@@ -6,7 +6,7 @@
 # It is included in the main 'build.ninja'.
 
 # =============================================================================
-# Project: region
+# Project: filtres
 # Configurations: Debug
 # =============================================================================
 # =============================================================================
@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /home/huj/home/Tools/CMake/bin/cmake --regenerate-during-build -S/home/huj/Desktop/info001-TP1/QT/regions -B/home/huj/Desktop/info001-TP1/QT/regions/build
+  command = /home/huj/home/Tools/CMake/bin/cmake --regenerate-during-build -S/home/huj/Desktop/info/d/QT/filtres -B/home/huj/Desktop/info/d/QT/filtres/build
   description = Re-running CMake...
   generator = 1
 

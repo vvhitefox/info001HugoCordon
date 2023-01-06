@@ -133,9 +133,15 @@ int main(int argc,char** args)
   Mat f = imread("lena.png");          // lit l'image "lena.png"
   imshow( "Youpi", f );              // l'affiche dans la fenêtre
   int keycode;
+  int lastkeycode;
   while ((keycode = waitKey(50)) != 'q' ){
     int T = getTrackbarPos( "track", "Youpi" );
+    char codes[] = {'p','a','m','x','y','g','c'};
+    if(std::find(std::begin(codes), std::end(codes), keycode) != std::end(codes)){
+        lastkeycode == keycode;
+    }
     switch(keycode){
+        lastkeycode = keycode;
         case 'p':
             f = MarrHildreth(f,T);
             break;
@@ -166,6 +172,9 @@ int main(int argc,char** args)
     }
     imshow( "Youpi", f );
   }
-
+  std::stringstream ss;
+  ss << "imageKey"<<lastkeycode << ".png";
+  imwrite(ss.str(),f);
+  return 0;
   std::cout << "value=" << value << std::endl;
 }
